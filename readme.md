@@ -78,7 +78,7 @@ public class IncreasingOrder {
 }   
 }
 ```
-### <p>3. Given an dynamic arr a return an dynamic array which has all unique elements from the given array?<p>
+### <p>4. Given an dynamic arr a return an dynamic array which has all unique elements from the given array?<p>
 ## Output
 ```
 
