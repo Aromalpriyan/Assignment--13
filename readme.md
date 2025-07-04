@@ -26,4 +26,62 @@ public class Main {
     }
 }
 ```
-[githublink](https://github.com/Aromalpriyan/Assignment--13)
+### <p>2. You are given a lower case String A= and you have to tell a count of vowels and consonants?<p>
+## Output
+```
+import java.util.Scanner;
+
+public class VowelConsonantCounter {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a lowercase string: ");
+        String A = sc.nextLine();
+
+        int vowels = 0, consonants = 0;
+
+        for(int i = 0; i < A.length(); i++){
+            char ch = A.charAt(i);
+            if(ch >= 'a' && ch <= 'z'){
+                if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+                    vowels++;
+                }else{
+                    consonants++;
+                }
+            }
+        }
+        System.out.println("Vowels: " + vowels);
+        System.out.println("Consontants: " + consonants);
+    }
+    
+}
+```
+### <p>3. Given an array check if it is increasing order or not?<p>
+## Output
+```
+public class IncreasingOrder {
+    public static void main(String[] args) {
+        int[] arr = {1,2,3,5,8};
+
+        if (isIncreasing(arr)) {
+            System.out.println("The array is in increasing order.");    
+        }else{
+            System.out.println("The array is not in increasing order.");
+        }
+    }
+    public static boolean isIncreasing(int[] arr){
+        for (int i = 0 ; i < arr.length-1 ; i++){
+            if(arr[i] > arr[i+1]){
+            return false;
+        }
+    }
+    return true;
+}   
+}
+```
+### <p>3. Given an dynamic arr a return an dynamic array which has all unique elements from the given array?<p>
+## Output
+```
+
+
+
+
